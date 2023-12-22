@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SK6812MINI-E")(type "KiCad")(uri "${KIPRJMOD}/custom_parts/SK6812MINI-E.kicad_sym")(options "")(descr ""))
+  (lib (name "XIAO")(type "KiCad")(uri "${KIPRJMOD}/custom_parts/XIAO.kicad_sym")(options "")(descr ""))
+  (lib (name "Display_Custom")(type "KiCad")(uri "${KIPRJMOD}/custom_parts/Display_Custom.kicad_sym")(options "")(descr ""))
+  (lib (name "SMF05CT1G")(type "KiCad")(uri "${KIPRJMOD}/custom_parts/SMF05CT1G.kicad_sym")(options "")(descr ""))
+)

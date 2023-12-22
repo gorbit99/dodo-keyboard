@@ -1,0 +1,765 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 16f1289d-95fc-4757-a001-acc1ecc5cdae)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "Diode:1N4007" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "1N4007" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" (at 0 -4.445 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Sim.Device" "D" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Sim.Pins" "1=K 2=A" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "diode" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "1000V 1A General Purpose Rectifier Diode, DO-41" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "D*DO?41*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "1N4007_0_1"
+        (polyline
+          (pts
+            (xy -1.27 1.27)
+            (xy -1.27 -1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy -1.27 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 1.27)
+            (xy 1.27 -1.27)
+            (xy -1.27 0)
+            (xy 1.27 1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "1N4007_1_1"
+        (pin passive line (at -3.81 0 0) (length 2.54)
+          (name "K" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 3.81 0 180) (length 2.54)
+          (name "A" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "SK6812MINI-E:SK6812MINI-E" (in_bom yes) (on_board yes)
+      (property "Reference" "D" (at 24.13 7.62 0)
+        (effects (font (size 1.27 1.27)) (justify left top))
+      )
+      (property "Value" "SK6812MINI-E" (at 24.13 5.08 0)
+        (effects (font (size 1.27 1.27)) (justify left top))
+      )
+      (property "Footprint" "SK6812MINIE" (at 24.13 -94.92 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "Datasheet" "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" (at 24.13 -194.92 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "Height" "1.88" (at 24.13 -394.92 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "Manufacturer_Name" "Yellow Stone Corp." (at 24.13 -494.92 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "Manufacturer_Part_Number" "SK6812MINI-E" (at 24.13 -594.92 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "Mouser Part Number" "" (at 24.13 -694.92 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "Mouser Price/Stock" "" (at 24.13 -794.92 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "Arrow Part Number" "" (at 24.13 -894.92 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "Arrow Price/Stock" "" (at 24.13 -994.92 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "ki_description" "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "SK6812MINI-E_1_1"
+        (rectangle (start 5.08 2.54) (end 22.86 -5.08)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (pin passive line (at 0 0 0) (length 5.08)
+          (name "VDD" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -2.54 0) (length 5.08)
+          (name "DOUT" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 27.94 -2.54 180) (length 5.08)
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 27.94 0 180) (length 5.08)
+          (name "DIN" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Switch:SW_Push" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "SW" (at 1.27 2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "SW_Push" (at 0 -1.524 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "switch normally-open pushbutton push-button" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Push button switch, generic, two pins" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "SW_Push_0_1"
+        (circle (center -2.032 0) (radius 0.508)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 1.27)
+            (xy 0 3.048)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 1.27)
+            (xy -2.54 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (circle (center 2.032 0) (radius 0.508)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (pin passive line (at -5.08 0 0) (length 2.54)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 0 180) (length 2.54)
+          (name "2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+
+  (wire (pts (xy 122.555 71.755) (xy 128.27 71.755))
+    (stroke (width 0) (type default))
+    (uuid 0bd6d87b-67d4-4ebb-975a-baad76605b9a)
+  )
+  (wire (pts (xy 155.575 71.755) (xy 157.48 71.755))
+    (stroke (width 0) (type default))
+    (uuid 0e67d561-7ed6-4480-8b28-730c535c335b)
+  )
+  (wire (pts (xy 138.43 71.755) (xy 147.955 71.755))
+    (stroke (width 0) (type default))
+    (uuid 29608c3d-a87d-4c50-8ab9-30dda231a4a7)
+  )
+  (wire (pts (xy 155.575 86.995) (xy 157.48 86.995))
+    (stroke (width 0) (type default))
+    (uuid 3c0898d6-14ad-4bcc-b083-95d6f48c89bf)
+  )
+  (wire (pts (xy 121.92 84.455) (xy 127.635 84.455))
+    (stroke (width 0) (type default))
+    (uuid 97a04fbf-f4ff-4d17-ad4f-6fddec73ac18)
+  )
+  (wire (pts (xy 121.92 86.995) (xy 127.635 86.995))
+    (stroke (width 0) (type default))
+    (uuid b2cd450d-80be-437d-92fc-fa68f231a8a0)
+  )
+  (wire (pts (xy 157.48 86.995) (xy 157.48 88.265))
+    (stroke (width 0) (type default))
+    (uuid c57e7210-1e16-4df6-92ea-397636b807e7)
+  )
+  (wire (pts (xy 155.575 84.455) (xy 157.48 84.455))
+    (stroke (width 0) (type default))
+    (uuid cb69332e-67f9-42a2-8c6f-019623ccd863)
+  )
+
+  (hierarchical_label "~{ROW}" (shape output) (at 157.48 71.755 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 185cd62a-5b3b-4de3-ac50-0910c06354c7)
+  )
+  (hierarchical_label "DOUT" (shape output) (at 121.92 86.995 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 3ebdd587-d93a-4798-acf8-bcd65c41925f)
+  )
+  (hierarchical_label "LED_PWR" (shape input) (at 121.92 84.455 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 4bac0bd7-a522-4202-bcf6-e89fb187d9cd)
+  )
+  (hierarchical_label "~{COL}" (shape input) (at 122.555 71.755 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid ba0b1c52-a3ac-4bd4-a85b-571dc0c548b5)
+  )
+  (hierarchical_label "DIN" (shape input) (at 157.48 84.455 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid e2e1b2e9-8677-43dc-9163-98275a76e459)
+  )
+
+  (symbol (lib_id "SK6812MINI-E:SK6812MINI-E") (at 127.635 84.455 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 05ddb0a4-27a7-4963-8cd8-0ec47e2337fb)
+    (property "Reference" "D6" (at 141.605 77.47 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "SK6812MINI-E" (at 141.605 80.01 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "SK6812MINI-E:SK6812MINI-E_Double" (at 151.765 179.375 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Datasheet" "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" (at 151.765 279.375 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Height" "1.88" (at 151.765 479.375 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Name" "Yellow Stone Corp." (at 151.765 579.375 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Part_Number" "SK6812MINI-E" (at 151.765 679.375 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Part Number" "" (at 151.765 779.375 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Price/Stock" "" (at 151.765 879.375 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Arrow Part Number" "" (at 151.765 979.375 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Arrow Price/Stock" "" (at 151.765 1079.375 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (pin "1" (uuid 2f5f408d-8f48-437d-8c53-341584545d5e))
+    (pin "2" (uuid 13ba1a60-501d-46d9-a315-bec87fa1d830))
+    (pin "3" (uuid 940ad979-bfb3-422e-86ff-1ef016a9cc02))
+    (pin "4" (uuid 68d61788-43a5-4e7f-8e7b-82891dbc1351))
+    (instances
+      (project "DodoKeyboard"
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/41ff029e-7b50-49cc-b096-adbd201deb9c"
+          (reference "D6") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/c9014810-777d-462f-a773-11c7f0962113"
+          (reference "D54") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/f45521b3-6eb1-4a58-9049-d2ddbd655aac"
+          (reference "D52") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/f1326be0-af4e-4ced-908f-90d7220fabb5"
+          (reference "D50") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/427fb759-7429-4869-8e69-d8d084512701"
+          (reference "D48") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/7e92c71b-dbf0-4aa9-92f4-4289eaa5ba7f"
+          (reference "D46") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/6f2b0190-3bf3-4f8b-8e4a-7386982b1984"
+          (reference "D44") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/38dd87f1-7263-40dd-8879-b9a4d341e2eb"
+          (reference "D42") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/f1031136-1621-497a-8743-5be6cd8a4825"
+          (reference "D40") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/0000eedb-03b7-4f72-b582-5ce8ad1926f7"
+          (reference "D12") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/7a1d4250-e2cb-4b3d-834b-1546e421b3fc"
+          (reference "D38") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/3b1d30f1-019c-4b92-8fcc-53b5e6742d27"
+          (reference "D56") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/4fd4319c-18ae-4479-a421-df4cd2b44983"
+          (reference "D60") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/ce3e696e-80f5-4b50-8285-86c5a230e3cd"
+          (reference "D10") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/f3968ccb-cb16-40b6-847c-ec8a706ed96a"
+          (reference "D8") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/8fe47a19-de97-4c4a-af1f-eae0ff035a78"
+          (reference "D36") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/e11ea909-4e4f-4e8e-852f-b405de1f9c3f"
+          (reference "D4") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/075479f7-a86e-472d-a72d-10975997a660"
+          (reference "D2") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/1089419e-51b2-4924-b6c3-c5c556375b6a"
+          (reference "D58") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/b8fab7f3-1f23-47fc-a330-9bca8559cf04"
+          (reference "D14") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/76bda6fc-830c-49c3-881d-18284e3f24aa"
+          (reference "D16") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/51ccdfad-059b-404d-bd41-705d22ddb2ab"
+          (reference "D18") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/cb65c0c9-608b-40db-8bad-813ff7cc497b"
+          (reference "D20") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/dc6967a6-381a-4799-afcc-6f45ee6399ac"
+          (reference "D22") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/be8984a2-d95a-4ba8-bca4-052c1a1a3d67"
+          (reference "D24") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/4ccd0ecd-310b-471f-81b0-d89fb1d4457a"
+          (reference "D26") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/db5a421e-f9c0-4922-ab19-698c37e3d13d"
+          (reference "D28") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/f2c72eb0-9bcd-4b57-bf53-2a56a8703168"
+          (reference "D30") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/a69d423c-4613-47dc-ac96-f9465a9400b7"
+          (reference "D32") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/06765e25-5761-4d0d-889b-b8714391971a"
+          (reference "D34") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Diode:1N4007") (at 151.765 71.755 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 44150ea8-dbba-4b57-96b8-57fbce27f546)
+    (property "Reference" "D7" (at 151.765 66.04 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1N4148" (at 151.765 68.58 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Diode_Custom:D_SOD-123_Double" (at 151.765 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf" (at 151.765 71.755 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Device" "D" (at 151.765 71.755 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 151.765 71.755 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cae1b5ef-37d5-47e0-b760-29037449cadb))
+    (pin "2" (uuid 26b0765c-c334-4246-a52b-bd53cf620e8e))
+    (instances
+      (project "DodoKeyboard"
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/41ff029e-7b50-49cc-b096-adbd201deb9c"
+          (reference "D7") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/c9014810-777d-462f-a773-11c7f0962113"
+          (reference "D55") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/f45521b3-6eb1-4a58-9049-d2ddbd655aac"
+          (reference "D53") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/f1326be0-af4e-4ced-908f-90d7220fabb5"
+          (reference "D51") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/427fb759-7429-4869-8e69-d8d084512701"
+          (reference "D49") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/7e92c71b-dbf0-4aa9-92f4-4289eaa5ba7f"
+          (reference "D47") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/6f2b0190-3bf3-4f8b-8e4a-7386982b1984"
+          (reference "D45") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/38dd87f1-7263-40dd-8879-b9a4d341e2eb"
+          (reference "D43") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/f1031136-1621-497a-8743-5be6cd8a4825"
+          (reference "D41") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/0000eedb-03b7-4f72-b582-5ce8ad1926f7"
+          (reference "D13") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/7a1d4250-e2cb-4b3d-834b-1546e421b3fc"
+          (reference "D39") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/3b1d30f1-019c-4b92-8fcc-53b5e6742d27"
+          (reference "D57") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/4fd4319c-18ae-4479-a421-df4cd2b44983"
+          (reference "D61") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/ce3e696e-80f5-4b50-8285-86c5a230e3cd"
+          (reference "D11") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/f3968ccb-cb16-40b6-847c-ec8a706ed96a"
+          (reference "D9") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/8fe47a19-de97-4c4a-af1f-eae0ff035a78"
+          (reference "D37") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/e11ea909-4e4f-4e8e-852f-b405de1f9c3f"
+          (reference "D5") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/075479f7-a86e-472d-a72d-10975997a660"
+          (reference "D3") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/1089419e-51b2-4924-b6c3-c5c556375b6a"
+          (reference "D59") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/b8fab7f3-1f23-47fc-a330-9bca8559cf04"
+          (reference "D15") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/76bda6fc-830c-49c3-881d-18284e3f24aa"
+          (reference "D17") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/51ccdfad-059b-404d-bd41-705d22ddb2ab"
+          (reference "D19") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/cb65c0c9-608b-40db-8bad-813ff7cc497b"
+          (reference "D21") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/dc6967a6-381a-4799-afcc-6f45ee6399ac"
+          (reference "D23") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/be8984a2-d95a-4ba8-bca4-052c1a1a3d67"
+          (reference "D25") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/4ccd0ecd-310b-471f-81b0-d89fb1d4457a"
+          (reference "D27") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/db5a421e-f9c0-4922-ab19-698c37e3d13d"
+          (reference "D29") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/f2c72eb0-9bcd-4b57-bf53-2a56a8703168"
+          (reference "D31") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/a69d423c-4613-47dc-ac96-f9465a9400b7"
+          (reference "D33") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/06765e25-5761-4d0d-889b-b8714391971a"
+          (reference "D35") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 157.48 88.265 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 791ef829-29c1-4596-9b2e-8bbd4c550374)
+    (property "Reference" "#PWR025" (at 157.48 94.615 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 157.48 92.71 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 157.48 88.265 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 157.48 88.265 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d22a09e9-fb3b-4aee-afaa-5413b05d6c94))
+    (instances
+      (project "DodoKeyboard"
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/41ff029e-7b50-49cc-b096-adbd201deb9c"
+          (reference "#PWR025") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/c9014810-777d-462f-a773-11c7f0962113"
+          (reference "#PWR049") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/f45521b3-6eb1-4a58-9049-d2ddbd655aac"
+          (reference "#PWR048") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/f1326be0-af4e-4ced-908f-90d7220fabb5"
+          (reference "#PWR047") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/427fb759-7429-4869-8e69-d8d084512701"
+          (reference "#PWR046") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/7e92c71b-dbf0-4aa9-92f4-4289eaa5ba7f"
+          (reference "#PWR045") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/6f2b0190-3bf3-4f8b-8e4a-7386982b1984"
+          (reference "#PWR044") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/38dd87f1-7263-40dd-8879-b9a4d341e2eb"
+          (reference "#PWR043") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/f1031136-1621-497a-8743-5be6cd8a4825"
+          (reference "#PWR042") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/0000eedb-03b7-4f72-b582-5ce8ad1926f7"
+          (reference "#PWR028") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/7a1d4250-e2cb-4b3d-834b-1546e421b3fc"
+          (reference "#PWR041") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/3b1d30f1-019c-4b92-8fcc-53b5e6742d27"
+          (reference "#PWR050") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/4fd4319c-18ae-4479-a421-df4cd2b44983"
+          (reference "#PWR052") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/ce3e696e-80f5-4b50-8285-86c5a230e3cd"
+          (reference "#PWR027") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/f3968ccb-cb16-40b6-847c-ec8a706ed96a"
+          (reference "#PWR026") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/8fe47a19-de97-4c4a-af1f-eae0ff035a78"
+          (reference "#PWR040") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/e11ea909-4e4f-4e8e-852f-b405de1f9c3f"
+          (reference "#PWR024") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/075479f7-a86e-472d-a72d-10975997a660"
+          (reference "#PWR023") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/1089419e-51b2-4924-b6c3-c5c556375b6a"
+          (reference "#PWR051") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/b8fab7f3-1f23-47fc-a330-9bca8559cf04"
+          (reference "#PWR029") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/76bda6fc-830c-49c3-881d-18284e3f24aa"
+          (reference "#PWR030") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/51ccdfad-059b-404d-bd41-705d22ddb2ab"
+          (reference "#PWR031") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/cb65c0c9-608b-40db-8bad-813ff7cc497b"
+          (reference "#PWR032") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/dc6967a6-381a-4799-afcc-6f45ee6399ac"
+          (reference "#PWR033") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/be8984a2-d95a-4ba8-bca4-052c1a1a3d67"
+          (reference "#PWR034") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/4ccd0ecd-310b-471f-81b0-d89fb1d4457a"
+          (reference "#PWR035") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/db5a421e-f9c0-4922-ab19-698c37e3d13d"
+          (reference "#PWR036") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/f2c72eb0-9bcd-4b57-bf53-2a56a8703168"
+          (reference "#PWR037") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/a69d423c-4613-47dc-ac96-f9465a9400b7"
+          (reference "#PWR038") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/06765e25-5761-4d0d-889b-b8714391971a"
+          (reference "#PWR039") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 133.35 71.755 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a67aac91-e89d-4f87-904c-18ef24811112)
+    (property "Reference" "SW6" (at 133.35 64.135 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "SW_Push" (at 133.35 66.675 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Keyswitch_Custom:SW_Kailh_Choc_V1_1.00u_Double" (at 133.35 66.675 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 133.35 66.675 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cc9839c8-390c-48cb-8364-265eebf40c0c))
+    (pin "2" (uuid d3e4933f-9d9d-4cba-9d38-68fe925b59ff))
+    (instances
+      (project "DodoKeyboard"
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/41ff029e-7b50-49cc-b096-adbd201deb9c"
+          (reference "SW6") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/c9014810-777d-462f-a773-11c7f0962113"
+          (reference "SW30") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/f45521b3-6eb1-4a58-9049-d2ddbd655aac"
+          (reference "SW29") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/f1326be0-af4e-4ced-908f-90d7220fabb5"
+          (reference "SW28") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/427fb759-7429-4869-8e69-d8d084512701"
+          (reference "SW27") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/7e92c71b-dbf0-4aa9-92f4-4289eaa5ba7f"
+          (reference "SW26") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/6f2b0190-3bf3-4f8b-8e4a-7386982b1984"
+          (reference "SW25") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/38dd87f1-7263-40dd-8879-b9a4d341e2eb"
+          (reference "SW24") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/f1031136-1621-497a-8743-5be6cd8a4825"
+          (reference "SW23") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/0000eedb-03b7-4f72-b582-5ce8ad1926f7"
+          (reference "SW9") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/7a1d4250-e2cb-4b3d-834b-1546e421b3fc"
+          (reference "SW22") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/3b1d30f1-019c-4b92-8fcc-53b5e6742d27"
+          (reference "SW31") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/4fd4319c-18ae-4479-a421-df4cd2b44983"
+          (reference "SW33") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/ce3e696e-80f5-4b50-8285-86c5a230e3cd"
+          (reference "SW8") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/f3968ccb-cb16-40b6-847c-ec8a706ed96a"
+          (reference "SW7") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/8fe47a19-de97-4c4a-af1f-eae0ff035a78"
+          (reference "SW21") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/e11ea909-4e4f-4e8e-852f-b405de1f9c3f"
+          (reference "SW5") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/075479f7-a86e-472d-a72d-10975997a660"
+          (reference "SW4") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/1089419e-51b2-4924-b6c3-c5c556375b6a"
+          (reference "SW32") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/b8fab7f3-1f23-47fc-a330-9bca8559cf04"
+          (reference "SW10") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/76bda6fc-830c-49c3-881d-18284e3f24aa"
+          (reference "SW11") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/51ccdfad-059b-404d-bd41-705d22ddb2ab"
+          (reference "SW12") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/cb65c0c9-608b-40db-8bad-813ff7cc497b"
+          (reference "SW13") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/dc6967a6-381a-4799-afcc-6f45ee6399ac"
+          (reference "SW14") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/be8984a2-d95a-4ba8-bca4-052c1a1a3d67"
+          (reference "SW15") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/4ccd0ecd-310b-471f-81b0-d89fb1d4457a"
+          (reference "SW16") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/db5a421e-f9c0-4922-ab19-698c37e3d13d"
+          (reference "SW17") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/f2c72eb0-9bcd-4b57-bf53-2a56a8703168"
+          (reference "SW18") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/a69d423c-4613-47dc-ac96-f9465a9400b7"
+          (reference "SW19") (unit 1)
+        )
+        (path "/650798b8-417f-4c9b-8812-9119ee13d327/2dc15552-9c9a-4a74-892e-cd687c59969a/06765e25-5761-4d0d-889b-b8714391971a"
+          (reference "SW20") (unit 1)
+        )
+      )
+    )
+  )
+)
