@@ -1,3 +1,4 @@
 *.log
 *.lck
 _autosave*
+*-backups/
