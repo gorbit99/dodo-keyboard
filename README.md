@@ -29,6 +29,7 @@ sure to get double of each):
 | XIAO BLE <sup>4</sup>             |     1 | [AliExpress](https://www.aliexpress.com/item/1005004459618789.html) |
 | MCP23S17SS                        |     1 | [AliExpress](https://www.aliexpress.com/item/1005004925908454.html) |
 | nice!view <sup>5</sup>            |     1 | [Official nice!view site](https://nicekeyboards.com/nice-view/)     |
+| SMD JST SH connector              |     1 | [AliExpress](https://www.aliexpress.com/item/1005005682408443.html) |
 
 All links are examples, I recommend looking around for better orders, and
 especially switches that you like
